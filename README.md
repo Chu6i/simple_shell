@@ -25,5 +25,5 @@ Compilation:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 Authors:
-1. Bright Yanchirah
-2. Okpala Chibuike
+1. Okpala Chibuike <okpalaemmanuel12@gmail.com>
+2. Bright Yanchirah <nanabryte.nb@gmail.com> 
