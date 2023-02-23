@@ -2,8 +2,8 @@
 
 /**
  * _myexit - exits the shell
- * @info: Structure containing potential arguments. Used to maintain constant function prototype.
- *  Return: exits with a given exit status 
+ * @info: Structure containing potential arguments
+ * Return: exits with a given exit status
  */
 int _myexit(info_t *info)
 {
@@ -91,3 +91,4 @@ int _myhelp(info_t *info)
 		_puts(*arg_array); /* temp att_unused workaround */
 	return (0);
 }
+

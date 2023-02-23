@@ -13,7 +13,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 	ssize_t r = 0;
 	size_t len_p = 0;
 
-	if (!*len) 
+	if (!*len)
 	{
 		free(*buf);
 		*buf = NULL;
@@ -50,14 +50,14 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
  */
 ssize_t get_input(info_t *info)
 {
-	static char *buf; 
+	static char *buf;
 	static size_t i, j, len;
 	ssize_t r = 0;
 	char **buf_p = &(info->arg), *p;
 
 	_putchar(BUF_FLUSH);
 	r = input_buf(info, &buf, &len);
-	if (r == -1) 
+	if (r == -1)
 		return (-1);
 	if (len)	/* we have commands left in the chain buffer */
 	{
