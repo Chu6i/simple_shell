@@ -17,11 +17,11 @@ void fibonacci(int num, int prev, int limit)
 }
 
 /**
- * main - entry point for program
+ * max - entry point for program
  *
  * Return: 0 on success
  */
-int main(void)
+int max(void)
 {
 	int limit;
 
